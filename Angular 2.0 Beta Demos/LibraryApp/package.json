@@ -1,0 +1,24 @@
+{
+  "name": "libraryapp",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promise": "^3.0.2",
+    "angular2": "^2.0.0-beta.0",
+    "reflect-metadata": "^0.1.2",
+    "es6-shim": "^0.33.13",
+    "rxjs": "^5.0.0-beta.0",
+    "systemjs": "^0.19.13",
+    "live-server": "^0.9.0",
+    "typescript": "^1.7.5",
+    "zone.js": "^0.5.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "tsc":"tsc -p src -w -m commonjs -t es5 --experimentalDecorators --emitDecoratorMetadata",
+    "start": "live-server --open=src"
+  },
+  "author": "nagraju",
+  "license": "ISC"
+}
